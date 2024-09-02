@@ -17,7 +17,7 @@ module.exports = {
    * @param {ChatInputCommandInteraction} interaction
    */
   async execute(interaction) {
-    const refreshInterval = 5; // Refresh interval in seconds
+    const refreshInterval = 15; // Refresh interval in seconds
 
     // Send initial message stating the start of the refresh
     const initialMessage = await interaction.reply("Starting token refresh...");
